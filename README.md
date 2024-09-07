@@ -1,37 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Employee Management System
 
-## Getting Started
+## Overview
 
-First, run the development server:
+The Employee Management System (EMS) is a command-line application designed to help businesses manage their workforce details effortlessly. Developed using Node.js, this tool provides users with options to view details of departments, roles, and employees, and make updates such as adding new entries or modifying existing ones.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Objective
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To offer organizations a seamless and efficient method to interact with employee-related data. Recognizing the often tedious task of manually managing workforce details, the aim was to automate this process, ensuring a hassle-free experience for the user.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Table of Contents
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the GitHub repository.
+2. Navigate to the EMS directory in your terminal.
+3. Ensure Node.js is installed.
+4. Run the application using the command `node index.js` or your specified entry point.
+5. Engage with the interactive prompts to manage your employee data.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To engage with the application, ensure you're in the EMS directory and execute the command mentioned in the installation step #4. As you navigate through the prompts, the employee data will be displayed or updated accordingly, all of which will be saved in the database.
 
-## Deploy on Vercel
+### Special Usage Note:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    Please ensure your database connection details are correctly set in the application to ensure a smooth user experience.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# HR-Portal
+![Employee Management System - Menu Options](./assets/images/EMS-Menu.png)
+
+## Features
+
+- **Interactive Menu:** On starting the application, users are greeted with various options:
+
+  - View all departments
+  - View all roles
+  - View all employees
+  - Add a department
+  - Add a role
+  - Add an employee
+  - Update an employee role
+
+- **Efficient Data Interaction:** Depending on user choice, formatted tables display relevant information or prompts gather required details for database updates.
+
+## Acknowledgements
+
+- Resources:
+
+  - [Node.js Documentation](https://nodejs.org/en/docs/)
+  - [Github License Information](https://gist.github.com/kofiav/c1059e1075b67582e86b07aa9759e20d)
+
+- Special thanks to everyone who provided feedback and tested the application during its development phase.
+
+## License
+
+![Github License](https://img.shields.io/badge/license-MIT-red.svg)
